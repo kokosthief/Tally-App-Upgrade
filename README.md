@@ -6,4 +6,4 @@ Wanted to upgrade my tally app to try out a few things including:
 - react
 - bulmar css
 
-![Screenshot](Screenshot-of-app)
+![Screenshot](Screenshot-of-app.png)
