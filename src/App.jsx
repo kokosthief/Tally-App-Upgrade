@@ -19,7 +19,7 @@ function App() {
       <p class="subtitle is-3">
         I called it tally bc everyone uses <i>"counter"</i>
       </p>
-      <div class="card ">
+      <div class="card mw-5">
         <div class="columns ">
           <div class="column">
             <p id="count-el" class="title is-1 ">
@@ -30,18 +30,18 @@ function App() {
         <div class="buttons columns">
           <div class="column">
             <button
-              onClick={() => setCount((count) => count + 1)}
-              class="button is-primary is-light is-large"
-            >
-              +
-            </button>
-          </div>
-          <div class="column">
-            <button
               onClick={() => setCount((count) => count - 1)}
               class="button is-primary is-link is-light is-large"
             >
               -
+            </button>
+          </div>
+          <div class="column">
+            <button
+              onClick={() => setCount((count) => count + 1)}
+              class="button is-primary is-light is-large"
+            >
+              +
             </button>
           </div>
         </div>
